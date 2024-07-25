@@ -1,0 +1,13 @@
+embedding_size: 64
+feat_embed_dim: 64
+weight_size: [64, 64]
+
+dropout: [0.8]
+n_mm_layers: 1
+n_ui_layers: 2
+knn_k: [10]
+mm_image_weight: [0.2]
+mm_bpr_loss_weight: [0.1]
+vae_loss_weight: [0.001]
+
+hyper_parameters: ["mm_image_weight", "mm_bpr_loss_weight", "vae_loss_weight", "knn_k", "dropout"]
